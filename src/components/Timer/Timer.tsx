@@ -12,7 +12,7 @@ const Timer = ({ duration, timeout }: TimerProps) => {
     <div className={styles.timerBox}>
       <CountdownCircleTimer
         duration={duration}
-        size={120}
+        size={100}
         isPlaying
         onComplete={timeout}
         colors={['#2BAA6D', '#DE1', '#E44A4C']}

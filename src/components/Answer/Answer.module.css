@@ -70,13 +70,60 @@
 
 .correct {
   background-color: #2baa6d;
+  padding: 0 4px;
 }
 
 .wrong {
   background-color: #e44a4c;
+  padding: 0 4px;
 }
 
 .correct .value,
 .wrong .value {
   font-size: 1.5rem;
+}
+
+@media (max-width: 799px) {
+  .answerBox {
+    width: 500px;
+  }
+
+  .value {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .correct .value,
+  .wrong .value {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .answerBox {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .answerBox {
+    width: 300px;
+  }
+
+  .value {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 400px) {
+  .answerBox {
+    width: 280px;
+  }
+}
+
+@media (max-width: 300px) {
+  .answerBox {
+    width: 240px;
+  }
 }
