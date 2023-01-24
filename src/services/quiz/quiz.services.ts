@@ -3,12 +3,12 @@ import { IQuestion } from './quiz.types'
 
 const QuizServices = () => {
   const getQuestionIds = async () => {
-    const { data: ids } = await http.get('/quiz')
+    const { data: ids } = await http.get('/api/quiz')
     return ids
   }
 
   const getQuestion = async (id: number) => {
-    const { data: question } = await http.get(`/questions/${id}`)
+    const { data: question } = await http.get(`/api/questions/${id}`)
     return question
   }
 
