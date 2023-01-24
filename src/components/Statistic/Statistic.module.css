@@ -1,0 +1,22 @@
+.statisticBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  font-size: 2.6rem;
+}
+
+.text {
+  color: #dd74dc;
+  font-size: 1.8rem;
+  font-weight: 200;
+}

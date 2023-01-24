@@ -1,0 +1,10 @@
+.enunciationBox {
+  display: flex;
+  margin: 20px 100px 0;
+}
+
+.enunciation {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
