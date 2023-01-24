@@ -1,7 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { shuffleArray } from '../../../common/utils/arrays'
 import questions from '../../../../src/services/quiz/quiz.data'
-import QuizServices from '../../../../src/services/quiz/quiz.services'
 import { IError, IQuestion } from '../../../../src/services/quiz/quiz.types'
 
 const handler = (

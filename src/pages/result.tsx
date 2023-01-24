@@ -1,7 +1,7 @@
 import ResultView from '../views/Result/Result.view'
 
-const Home = () => {
+const Result = () => {
   return <ResultView />
 }
 
-export default Home
+export default Result

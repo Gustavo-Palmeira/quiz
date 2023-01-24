@@ -1,7 +1,7 @@
 import QuizView from '../views/Quiz/Quiz.view'
 
-const Home = () => {
+const Quiz = () => {
   return <QuizView />
 }
 
-export default Home
+export default Quiz
